@@ -33,8 +33,13 @@ Select a Python 3.11–3.13 kernel and choose **Run All**. CUDA, Apple Silicon M
 detected automatically. Reproducing the submitted run takes about 73 minutes on an Apple M1 Pro.
 
 The executed notebook in this repository, **[`pacman_dqn.ipynb`](pacman_dqn.ipynb)**, retains all
-outputs from the final run: scores, dashboard, and gameplay GIFs are visible on GitHub without
-rerunning anything.
+outputs from the final run, so the results can be inspected without rerunning anything.
+
+> **Note on viewing the notebook on GitHub:** GitHub's notebook renderer displays the scores, tables,
+> and the dashboard PNG, but it silently drops `image/gif` outputs — the 34 gameplay GIFs appear as
+> the placeholder text `<IPython.core.display.Image object>`. The GIF data is present in the file and
+> displays normally in Jupyter or Colab. All gameplay is also embedded in this README below and saved
+> as ordinary files in [`results/gifs/`](results/gifs/), which render correctly on GitHub.
 
 ---
 
